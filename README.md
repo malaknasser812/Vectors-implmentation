@@ -1,23 +1,39 @@
-# Vector Implementation in C++
+# Vector Implementation in Data Structures
 
 ---
 
-## Task Description
+## Overview
 
-This task involves implementing vector operations using C++. The provided files are as follows:
+In data structures, a vector, also known as a dynamic array, is a resizable array that allows elements to be efficiently added or removed. It combines the benefits of both arrays and linked lists, providing fast random access to elements and dynamic resizing when needed.
 
-- `da.h` contains the function signatures that need to be implemented.
-- `da.cpp` is where the function definitions will be implemented.
-- `main.cpp` is a file used for testing the application.
-- `catch.hpp` and `test.cpp` are used for testing. **Do not modify them**. Any modifications to these files will result in submission failure.
+## Key Features
 
-## Instructions
+- **Dynamic Size**: Vectors can grow or shrink in size dynamically based on the number of elements they hold.
 
-1. **Read the Comments**: Carefully go through the comments in the code files, especially in `da.h` and `da.cpp`, to understand what each function is expected to do.
+- **Random Access**: Elements in a vector can be accessed directly by their index, providing constant-time access.
 
-2. **Implementation**: Fill in the missing lines in `da.cpp` to implement the functions defined in `da.h`.
+- **Efficient Insertion and Deletion**: While inserts and deletes within a vector are generally slower compared to at the end, they are faster than linked lists for most practical purposes.
 
-3. **Testing**: Before submission, make sure to run the tests using the following commands in the command line or Terminal:
+- **Contiguous Memory**: Elements in a vector are stored in contiguous memory locations, allowing efficient cache utilization.
+
+- **Efficient Traversal**: Iterating through a vector is efficient due to its contiguous memory layout.
+
+## Implementation Details
+
+This task involves implementing the function signatures defined in `da.h` in `da.cpp`. The provided files include:
+
+- `main.cpp`: This is used for testing the application.
+- `da.h`: Contains the function signatures implemented.
+- `da.cpp`: This is where the function definitions implemented.
+- `catch.hpp`, `test.cpp`: These are used for testing and **should not be modified**. 
+
+## Instructions for making your own Vector Implementation
+
+1. Read the comments in the code files, especially in `da.h` and `da.cpp`, to understand what each function is expected to do.
+
+2. Implement the functions in `da.cpp` based on the provided function signatures.
+
+3. Test your implementation by running the tests using the following commands in the command line or Terminal:
 
    ```bash
    make clean
