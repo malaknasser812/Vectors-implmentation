@@ -1,17 +1,24 @@
-### Implement vectors using c++
-In this task you are required to implement the function signatures defined in da.h in da.cpp
-other files included:
-1. main.cpp --> this is to test your application
-2. catch.hpp, test.cpp --> these are for testing ### don't modify them, in case these files have been modified, the submission will fail
+# Vector Implementation in C++
 
-Read the comments carefully and fill the missing lines
-To run the tests before submission, from the command line or Terminal, run the following commands
+---
 
-make clean
-make test
+## Task Description
 
-if you are on windows please make sure to setup make and configure the system path correctly
-best way is to install make using choco
---> choco install make
+This task involves implementing vector operations using C++. The provided files are as follows:
 
-**In case of invalid index, return -1**
+- `da.h` contains the function signatures that need to be implemented.
+- `da.cpp` is where the function definitions will be implemented.
+- `main.cpp` is a file used for testing the application.
+- `catch.hpp` and `test.cpp` are used for testing. **Do not modify them**. Any modifications to these files will result in submission failure.
+
+## Instructions
+
+1. **Read the Comments**: Carefully go through the comments in the code files, especially in `da.h` and `da.cpp`, to understand what each function is expected to do.
+
+2. **Implementation**: Fill in the missing lines in `da.cpp` to implement the functions defined in `da.h`.
+
+3. **Testing**: Before submission, make sure to run the tests using the following commands in the command line or Terminal:
+
+   ```bash
+   make clean
+   make test
